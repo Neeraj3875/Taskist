@@ -1,0 +1,168 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #e7e7e7;
+}
+
+#header{
+    color:1f2937;
+    text-align: center;
+    font-size: 8px;
+    border: solid 1.5px #1f2927;
+    border-radius: 8px;
+    line-height: 0.4;
+    width: 80%;
+    height: 5vh;
+    margin: 2% 10%;
+    position: sticky;
+    top: 2%;
+    display: block;
+    z-index: 1;
+    background-color: #f6f8fc;
+}
+
+button{
+    cursor: pointer;
+}
+
+.dayntime{
+    width: 80%;
+    margin: 2% auto;
+    position: sticky;
+    top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+#day, #time{
+    background-color: #d2e3ff;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0px 4%;
+    line-height: 0.5;
+    font-size: 11px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.799);
+}
+
+
+/* Task body and list */
+.taskbody{
+    background-color: #c6d7ff18;
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    shape-outside:  2px #2563eb;
+}
+
+.NoTaskspara{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #6b7280;
+    position: relative;
+    display: block;
+    top: 20px;
+}
+
+/* add button */
+.addbtn{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.addbtn:hover{
+    background-color: #2563eb;
+}
+#addBtn{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #3b82f6;
+    color: #3b82f6;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+/* Task body  */
+ 
+
+
+
+#Orderbox .item{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1.5px black;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    height: 6vh;
+    padding: 0 0 0 4px;
+    align-items: center;
+}
+
+#Orderbox .item p.item-text, .toggle-btn{
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: none;
+}
+
+/* task input float box */
+dialog{
+    width: 80%;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.taskInputBox{
+    padding: 0;
+}
+
+.taskInputBox::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.5px);
+}
+
+#taskInput{
+    outline: none;
+    width: 79%;
+    height: 48px;
+    border: none;
+    padding: 0 1%px;
+    font-size: 14px;
+}
+#addTaskBtn{
+  border: none;
+  height: 50px;
+  width: 18%;
+  background: #d2e3ff;
+  color: black;
+  font-size: 12px;
+  float: right;
+} 
+
+
+/* toggle button in list */
+
+/* .toggleBtn{
+    cursor: pointer;
+    border: 2px solid #8e90ff90;
+    border-radius: 5px;
+    background:none;
+    display: inline-block;
+} */
