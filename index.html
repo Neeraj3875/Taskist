@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskist</title>
+
+    <link rel="stylesheet" href="/Task Manager/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+
+    <div id="header">
+        <h1>Taskist</h1>
+    </div>
+
+    <!-- Day and Time -->
+    <div class="dayntime">
+        <div id="day">
+            <p class="daypara"></p>
+        </div>
+        <div id="time">
+            <p class="timepara"></p>
+        </div>
+    </div>
+
+    <!-- Task body -->
+    <div class="taskbody">
+        <div id="taskList" class="taskList">
+            <div id="Orderbox">
+                <div class="item"> 
+                        <p class="item-text">1. Task</p>
+                        <button class="toggle-btn">✔️</button>
+                </div>
+                <div class="item"> 
+                        <p class="item-text">1. Task</p>
+                        <button class="toggle-btn">❓</button>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Task Input Float Box -->
+        <dialog id="taskInputBox" class="taskInputBox">
+            <input type="text" id="taskInput" placeholder="Enter your task here...">
+            <button id="addTaskBtn">Add</button>
+        </dialog>
+        
+        <!-- Add Float Button  -->
+         <div class="addbtn">
+            <button id="addBtn" onclick="taskInputBox.showModal()">+</button>
+         </div>
+    </div>
+    <script src="/Task Manager/js/header.js"></script>
+    <script src="/Task Manager/js/app.js"></script>
+    <script src="/Task Manager/js/dialog.js"></script>
+</body>
+</html>
