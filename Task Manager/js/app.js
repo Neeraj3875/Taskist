@@ -1,4 +1,3 @@
-alert("App script working")
 // tasks = [ task1, task2, ... ]
 // task1 = {
 //  id: 1,
